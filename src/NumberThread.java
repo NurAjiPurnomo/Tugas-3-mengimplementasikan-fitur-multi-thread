@@ -9,7 +9,7 @@ import javax.swing.*;
  */
 public class NumberThread extends Thread {
     private JTextArea textArea;
-    
+
     public NumberThread(JTextArea textArea) {
         this.textArea = textArea;
     }
